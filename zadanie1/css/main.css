@@ -30,6 +30,10 @@ h3 {
   background-color: #282828;
 }
 
+.bg_orange {
+  background-color: #ff6131;
+}
+
 .text_orange {
   color: #ff6131;
 }
@@ -79,13 +83,31 @@ header {
 /* Services */
 
 section {
-  padding: 4rem 0;
+  padding: 4.5rem 0;
 }
 
 .subtitle_margin_top {
   margin-top: -1.5rem;
 }
 
+.service_box {
+  display: flex;
+  align-items: center;
+}
+
+.service_box_item {
+}
+
+.service_box_icon {
+
+  width: 40%;
+
+}
+.service_box_icon p{
+position: relative;
+ top: 50%;
+ transform: translateY(-50%);
+}
 
 /* RWD */
 
