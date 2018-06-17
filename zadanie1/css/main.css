@@ -57,3 +57,9 @@ h3 {
 .navbar-nav a:hover {
   color: #ff6131;
 }
+
+/* Header */
+
+header {
+    padding: 3rem 0 7rem;
+}
