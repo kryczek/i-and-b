@@ -22,13 +22,13 @@ body {
 
 /* Navbar */
 .navbar-brand {
-  font-size: 50pt;
+  font-size: 48px;
   text-transform: uppercase;
 }
 .navbar-nav a {
   color: #fff;
   transition: all 0.3s ease;
-  font-size: 16pt;
+  font-size: 14px;
   font-weight: 100;
 }
 
