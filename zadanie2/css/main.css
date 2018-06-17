@@ -70,12 +70,12 @@ main {
    transition:background-color 0.1s ease;
 }
 
-.collapse::before {
+.card-body::before {
   background: #ebebeb;
       content: '';
       position: absolute;
-      top: 4.25rem;
-      height: 74%;
+      top: 0;
+      height: 100%;
       right: 100%;
       width: 100vw;
 }
