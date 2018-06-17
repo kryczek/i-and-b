@@ -69,6 +69,12 @@ header {
     padding: 3rem 0 7rem;
 }
 
+.header_img {
+    position: absolute;
+    right: 0;
+    max-height: 39rem;
+}
+
 /* Services */
 
 section {
