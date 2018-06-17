@@ -22,7 +22,7 @@ body {
 
 /* Navbar */
 .navbar-brand {
-  font-size: 25rem;
+  font-size: 50pt;
   text-transform: uppercase;
 }
 .navbar-nav a {
