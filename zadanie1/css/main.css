@@ -84,6 +84,11 @@ p {
   color: #ff6131;
 }
 
+.navbar-toggler-icon {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
 /* Header */
 
 header {
