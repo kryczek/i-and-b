@@ -22,6 +22,19 @@ h3 {
   line-height: 1.7rem;
 }
 
+h4 {
+  font-size: 0.95rem;
+  line-height: 1rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+  font-weight: 100;
+}
+
 .display_block {
   display: block
 }
@@ -99,11 +112,14 @@ section {
 }
 
 .service_box_item {
+  text-align: left;
+  padding: 0 1.5rem;
 }
 
 .service_box_icon {
-  width: 30%;
+  width: 45%;
   padding: 2rem 0;
+  text-align: center;
 }
 .service_box_icon i{
 position: relative;
