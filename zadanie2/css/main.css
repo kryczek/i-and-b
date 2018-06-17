@@ -96,6 +96,19 @@ main {
   color: #fff;
 }
 
-.list_file img {
+.file_icon {
   float: right;
+  height: 23px;
+  width: 23px;
+  background-image: url(../img/file2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.list_file a:hover {
+  text-decoration: none;
+}
+
+.list_file a:hover .file_icon {
+  background-image: url(../img/file1.png);
 }
