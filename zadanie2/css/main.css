@@ -5,13 +5,22 @@ html, body {
   font-size: 16px;
 }
 
-/* Section Top */
-
-.section_top .row {
-  display: block;
+p {
+  font-weight: 300;
+  font-size: 0.92rem;
 }
 
-.bg_red::before{
-  background-color: #ec1c24;
-  content: 'x';
+/* Section Top */
+.section_top {
+  padding: 1rem 0;
+}
+
+.section_top .row div {
+    padding: 1rem 0;
+}
+
+.bg_red{
+    background-color: #ec1c24;
+    height: auto;
+    border-right: 2rem solid #fff;
 }
