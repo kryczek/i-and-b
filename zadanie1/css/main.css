@@ -3,3 +3,13 @@
 .bg_dark {
   background-color: #282828;
 }
+
+/* Navbar */
+.navbar-nav a {
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav a:hover {
+  color: #ff6131;
+}
