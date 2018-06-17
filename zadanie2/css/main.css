@@ -56,28 +56,28 @@ main {
   font-size: 3.7rem;
 }
 
-.list_question .panel {
-    width: 100%;
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.0);
+    border-bottom: 0px solid rgba(0,0,0,.125);
 }
-
-.box_answer {
-  background-color: #ebebeb;
-  display: none;
+.card {
+  border: 0px solid transparent;
 }
-
 .collapse {
   background-color: #ebebeb;
    transition:background-color 0.1s ease;
 }
 
-.collapse::after {
+.collapse::before {
   background: #ebebeb;
-  content:'';
-  position: absolute;
-  top:0;
-  height: 100%;
-  right: 100%;
-  width: 100vw;
+      content: '';
+      position: absolute;
+      top: 4.25rem;
+      height: 74%;
+      right: 100%;
+      width: 100vw;
 }
 
 /* Section FAQ - FILE */
