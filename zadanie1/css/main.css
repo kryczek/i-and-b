@@ -93,20 +93,23 @@ section {
 .service_box {
   display: flex;
   align-items: center;
+  padding: 2rem 0;
+  position: relative;
+  text-align: center;
 }
 
 .service_box_item {
 }
 
 .service_box_icon {
-
-  width: 40%;
-
+  width: 30%;
+  padding: 2rem 0;
 }
-.service_box_icon p{
+.service_box_icon i{
 position: relative;
  top: 50%;
  transform: translateY(-50%);
+ font-size: 4.3rem;
 }
 
 /* RWD */
