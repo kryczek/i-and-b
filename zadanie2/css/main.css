@@ -16,13 +16,12 @@ h1 {
 
 h2 {
   font-size: 2.5rem;
-  font-weight: 100;
+  font-weight: 200;
   line-height: 3.5rem;
 }
 
 p {
-  font-weight: 200;
-  font-size: 0.92rem;
+  font-weight: 300;
 }
 
 .text_light {
@@ -76,4 +75,23 @@ main {
 
 .section_faq h2 span {
   display: block;
+}
+
+
+  .list_file {
+      padding-left: 0px;
+      margin-right: 0px;
+      font-size: 1.1rem;
+      font-weight: 400;
+      list-style-type: none;
+  }
+
+  .list_file li {
+      border-bottom: 1px solid rgba(255,255,255,.5);
+      margin-bottom: 0.7rem;
+      padding-bottom: 0.7rem;
+  }
+
+.list_file a {
+  color: #fff;
 }
