@@ -62,6 +62,22 @@ main {
 
 .box_answer {
   background-color: #ebebeb;
+  display: none;
+}
+
+.collapse {
+  background-color: #ebebeb;
+   transition:background-color 0.1s ease;
+}
+
+.collapse::after {
+  background: #ebebeb;
+  content:'';
+  position: absolute;
+  top:0;
+  height: 100%;
+  right: 100%;
+  width: 100vw;
 }
 
 /* Section FAQ - FILE */
