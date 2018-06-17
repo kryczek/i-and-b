@@ -74,3 +74,7 @@ header {
 section {
   padding: 4rem 0;
 }
+
+.subtitle_margin_top {
+  margin-top: -0.5rem;
+}
