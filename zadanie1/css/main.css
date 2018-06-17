@@ -25,12 +25,16 @@ h3 {
   display: block
 }
 
-.bg_dark {
+.bg_darkgray {
   background-color: #282828;
 }
 
 .text_orange {
   color: #ff6131;
+}
+
+.text_darkgray {
+  color: #282828;
 }
 
 .text_thin {
