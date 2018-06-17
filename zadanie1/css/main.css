@@ -147,13 +147,13 @@ position: relative;
 
 @media screen and (max-width: 922px) {
   html, body {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 
 @media screen and (max-width: 600px) {
   html, body {
-    font-size: 11px;
+    font-size: 12px;
   }
   .header_img {
     display: none;
