@@ -64,8 +64,10 @@ main {
 }
 .card {
   border: 0px solid transparent;
+  position: relative;
 }
 .collapse {
+  position: relative;
   background-color: #ebebeb;
    transition:background-color 0.1s ease;
 }
