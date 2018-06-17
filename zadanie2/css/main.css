@@ -4,3 +4,14 @@ html, body {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
 }
+
+/* Section Top */
+
+.section_top .row {
+  display: block;
+}
+
+.bg_red::before{
+  background-color: #ec1c24;
+  content: 'x';
+}
