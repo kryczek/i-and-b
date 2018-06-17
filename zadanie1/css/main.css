@@ -21,6 +21,10 @@ body {
 }
 
 /* Navbar */
+.navbar-brand {
+  font-size: 25rem;
+  text-transform: uppercase;
+}
 .navbar-nav a {
   color: #fff;
   transition: all 0.3s ease;
