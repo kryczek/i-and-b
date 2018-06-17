@@ -95,3 +95,7 @@ main {
 .list_file a {
   color: #fff;
 }
+
+.list_file img {
+  float: right;
+}
