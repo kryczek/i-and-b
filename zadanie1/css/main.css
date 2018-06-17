@@ -72,7 +72,8 @@ header {
 .header_img {
     position: absolute;
     right: 0;
-    max-height: 39rem;
+    margin-top: -2rem;
+    max-height: 45rem;
 }
 
 /* Services */
@@ -83,4 +84,28 @@ section {
 
 .subtitle_margin_top {
   margin-top: -1.5rem;
+}
+
+
+/* RWD */
+
+@media screen and (max-width: 1200px) {
+  html, body {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 922px) {
+  html, body {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html, body {
+    font-size: 10px;
+  }
+  .header_img {
+    display: none;
+  }
 }
