@@ -82,6 +82,16 @@ main {
       width: 100vw;
 }
 
+.card-body::after {
+  background: #ebebeb;
+      content: '';
+      position: absolute;
+      top: 0;
+      height: 100%;
+      left: 100%;
+      width: 100vw;
+}
+
 /* Section FAQ - FILE */
 .bg_black {
     background-color: #000;
