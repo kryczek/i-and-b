@@ -92,6 +92,27 @@ main {
       width: 100vw;
 }
 
+.card-header button {
+  font-weight: 200;
+  font-size: 1.1rem;
+  color: #000;
+
+}
+
+.card-header button:focus,
+.card-header button:active,
+.card-header button:hover {
+  text-decoration: none;
+  outline: none;
+}
+
+.list_number:after {
+    content: '|';
+    font-size: 1.5rem;
+    color: rgba(0,0,0,.5);
+    padding: 0 0.8rem;
+}
+
 /* Section FAQ - FILE */
 .bg_black {
     background-color: #000;
