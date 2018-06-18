@@ -150,6 +150,7 @@ main {
   background-repeat: no-repeat;
   background-size: contain;
   transition: all 0.5s ease;
+  right: 2rem;
 }
 
 .card-header button:focus .list_arrow{
