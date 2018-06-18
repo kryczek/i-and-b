@@ -277,4 +277,8 @@ main {
   .list_number:after {
       padding: 0 0.2rem;
   }
+
+  .card-header button:focus .list_title{
+    font-weight: 200;
+  }
 }
