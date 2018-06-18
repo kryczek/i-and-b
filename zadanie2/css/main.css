@@ -28,6 +28,7 @@ p {
   font-weight: 300;
 }
 
+button, button:active, button:focus,
 a:active, a:focus {
   outline: 0 !important;
   border: none !important;
@@ -83,7 +84,7 @@ main {
 }
 
 .card-body::before {
-  background: #ebebeb;
+  background-color: #ebebeb;
       content: '';
       position: absolute;
       top: 0;
@@ -93,7 +94,7 @@ main {
 }
 
 .card-body::after {
-  background: #ebebeb;
+  background-color: #ebebeb;
       content: '';
       position: absolute;
       top: 0;
@@ -149,6 +150,19 @@ main {
 
 .card-header button:focus .list_arrow{
   background-image: url(../img/list2.png);
+}
+
+.collapse:hover {
+    position: relative;
+    background-color: #ec1c24;
+    color: #fff;
+    transition: background-color 0.1s ease;
+}
+
+
+.collapse:hover .card-body::before,
+.collapse:hover .card-body::after {
+  background-color: #ec1c24;
 }
 
 /* Section FAQ - FILE */
