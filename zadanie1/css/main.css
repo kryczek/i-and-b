@@ -95,14 +95,14 @@ a:active, a:focus {
 /* Header */
 
 header {
-    padding: 3rem 0 7rem;
+  padding: 3rem 0 7rem;
 }
 
 .header_img {
-    position: absolute;
-    right: 0;
-    margin-top: -2rem;
-    max-height: 45rem;
+  position: absolute;
+  right: 0;
+  margin-top: -2rem;
+  max-height: 45rem;
 }
 
 /* Services */
