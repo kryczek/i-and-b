@@ -225,3 +225,56 @@ main {
 .list_file a:hover .file_icon {
   background-image: url(../img/file1.png);
 }
+
+/* RWD */
+@media screen and (max-width: 1200px) {
+  html, body {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 922px) {
+  html, body {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html, body {
+    font-size: 14px;
+  }
+  .bg_red {
+    border-right: 0rem solid #fff;
+  }
+
+  .section_top p {
+    padding: 0 1rem;
+  }
+
+  .col-question h2 {
+      margin: -5.5rem 0 0 1rem;
+      font-size: 2.3rem;
+  }
+
+  .list_file {
+      padding-right: 1.5em;
+  }
+
+  .card-body {
+      padding: 1.25rem 0 1.25rem 3.5rem;
+  }
+
+  .list_title {
+      white-space: normal;
+  }
+
+  .list_arrow {
+      position: absolute;
+      top: 1.5rem;
+      right: 0;
+  }
+
+  .list_number:after {
+      padding: 0 0.2rem;
+  }
+}
