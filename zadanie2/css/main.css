@@ -9,9 +9,9 @@ html, body {
 
 h1 {
   color: #ebebeb;
-    font-size: 11rem;
-    font-weight: 900;
-    z-index: -1;
+  font-size: 11rem;
+  font-weight: 900;
+  z-index: -1;
 }
 
 h2 {
@@ -47,13 +47,13 @@ main {
 }
 
 .section_top .row div {
-    padding: 1rem 0;
+  padding: 1rem 0;
 }
 
 .bg_red{
-    background-color: #ec1c24;
-    height: auto;
-    border-right: 2rem solid #fff;
+  background-color: #ec1c24;
+  height: auto;
+  border-right: 2rem solid #fff;
 }
 
 /* Section FAQ - QUESTION  */
@@ -64,14 +64,14 @@ main {
 }
 
 #accordion {
-    padding: 2rem 0;
+  padding: 2rem 0;
 }
 
 .card-header {
-    padding: .3rem 1.25rem .3rem 0rem;
-    margin-bottom: 0;
-    background-color: rgba(0,0,0,.0);
-    border-bottom: 0px solid rgba(0,0,0,.125);
+  padding: .3rem 1.25rem .3rem 0rem;
+  margin-bottom: 0;
+  background-color: rgba(0,0,0,.0);
+  border-bottom: 0px solid rgba(0,0,0,.125);
 }
 .card {
   border: 0px solid transparent;
@@ -89,31 +89,31 @@ main {
 
 .card-body::before {
   background-color: #ebebeb;
-      content: '';
-      position: absolute;
-      top: 0;
-      height: 100%;
-      right: 100%;
-      width: 100vw;
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  right: 100%;
+  width: 100vw;
 }
 
 .card-body::after {
   background-color: #ebebeb;
-      content: '';
-      position: absolute;
-      top: 0;
-      height: 100%;
-      left: 100%;
-      width: 100vw;
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  left: 100%;
+  width: 100vw;
 }
 
 .card-header button {
-    font-weight: 200;
-    font-size: 1.1rem;
-    color: #000 !important;
-    width: 100%;
-    text-align: left;
-    transition: all 0.5s ease;
+  font-weight: 200;
+  font-size: 1.1rem;
+  color: #000 !important;
+  width: 100%;
+  text-align: left;
+  transition: all 0.5s ease;
 }
 
 .card-header button:focus,
@@ -133,11 +133,11 @@ main {
 }
 
 .list_number:after {
-    content: '|';
-    font-size: 1.5rem;
-    color: rgba(0,0,0,.5);
-    padding: 0 0.8rem;
-    font-weight: 200 !important;
+  content: '|';
+  font-size: 1.5rem;
+  color: rgba(0,0,0,.5);
+  padding: 0 0.8rem;
+  font-weight: 200 !important;
 }
 
 
@@ -157,10 +157,10 @@ main {
 }
 
 .collapse:hover {
-    position: relative;
-    background-color: #ec1c24;
-    color: #fff;
-    transition: background-color 0.1s ease;
+  position: relative;
+  background-color: #ec1c24;
+  color: #fff;
+  transition: background-color 0.1s ease;
 }
 
 
@@ -171,9 +171,9 @@ main {
 
 /* Section FAQ - FILE */
 .bg_black {
-    background-color: #000;
-    border-top-left-radius: 30px;
-    padding: 1rem 0 1rem 2rem;
+  background-color: #000;
+  border-top-left-radius: 30px;
+  padding: 1rem 0 1rem 2rem;
 }
 
 .bg_black::before {
@@ -191,18 +191,18 @@ main {
 }
 
 
-  .list_file {
-      padding-left: 0px;
-      margin-right: 0px;
-      font-size: 1.1rem;
-      font-weight: 400;
-      list-style-type: none;
+.list_file {
+  padding-left: 0px;
+  margin-right: 0px;
+  font-size: 1.1rem;
+  font-weight: 400;
+  list-style-type: none;
   }
 
-  .list_file li {
-      border-bottom: 1px solid rgba(255,255,255,.5);
-      margin-bottom: 0.7rem;
-      padding-bottom: 0.7rem;
+.list_file li {
+  border-bottom: 1px solid rgba(255,255,255,.5);
+  margin-bottom: 0.7rem;
+  padding-bottom: 0.7rem;
   }
 
 .list_file a {
@@ -252,30 +252,30 @@ main {
   }
 
   .col-question h2 {
-      margin: -5.5rem 0 0 1rem;
-      font-size: 2.3rem;
+    margin: -5.5rem 0 0 1rem;
+    font-size: 2.3rem;
   }
 
   .list_file {
-      padding-right: 1.5em;
+    padding-right: 1.5em;
   }
 
   .card-body {
-      padding: 1.25rem 0 1.25rem 3.5rem;
+    padding: 1.25rem 0 1.25rem 3.5rem;
   }
 
   .list_title {
-      white-space: normal;
+    white-space: normal;
   }
 
   .list_arrow {
-      position: absolute;
-      top: 1.5rem;
-      right: 0;
+    position: absolute;
+    top: 1.5rem;
+    right: 0;
   }
 
   .list_number:after {
-      padding: 0 0.2rem;
+    padding: 0 0.2rem;
   }
 
   .card-header button:focus .list_title{
