@@ -68,7 +68,7 @@ main {
 }
 
 .card-header {
-    padding: .3rem 1.25rem;
+    padding: .3rem 1.25rem .3rem 0rem;
     margin-bottom: 0;
     background-color: rgba(0,0,0,.0);
     border-bottom: 0px solid rgba(0,0,0,.125);
@@ -81,6 +81,10 @@ main {
   position: relative;
   background-color: #ebebeb;
    transition:background-color 0.1s ease;
+}
+
+.card-body {
+  padding: 1.25rem 3.5rem;
 }
 
 .card-body::before {
